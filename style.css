@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@100;200');
+* {
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: gray;
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    align-items: center;
+  
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    position: relative;
+    width: 270px;
+    height: 450px;
+    background: #e6e7e9;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: 20%;
+    box-shadow: 6px 6px 20px #121213;
+    margin: 10px;
+    overflow: hidden;
+      
+    transition: 0.3s;
+    border-radius: 5px; 
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+
+.card .content{
+position: absolute;
+top: 10%;
+left: 10%;
+display: flex;
+align-items: center;
+color: #fff;
+}
+.card .content img{
+   width: 40px;
+   height: 40px;
+    border-radius: 5px 5px 0 0;
+  
+
+}
+
+.card .content .title_subtitle{
+   margin-left: 8px;
+}
+.card .content .title_subtitle h3{
+    font-weight: 500;
+    margin-top: 7px;
+    line-height: 10px;
+    color:#121213;
+}
+.card .content .title_subtitle h3 span{
+    font-weight: 500; 
+    color:#121213;
+} 
+.card .content .title_subtitle p{
+  font-size: 10.5px;
+  letter-spacing: 1px;
+  margin:5px 0px 0px 5px;
+  color: #767477;
+ }
+
+
+
+ .card .content1{
+    position: absolute;
+    top: 30%;
+    left: 18%;
+    display: flex;
+    align-items: center;
+    color: #000;
+    }
+    
+    .card .content1 h1{
+       width: 5px;
+       height: 37px;
+       background: #dca53e;
+    }
+    .card .content .title_subtitle{
+        margin-left: 15px;
+    }
+    .card .content1 .title_subtitle h5{
+        font-weight: 300;
+        margin-top: 7px;
+        line-height: 10px;
+        color:#121213;
+        margin-left: 10px;
+    }
+    .card .content1 .title_subtitle h5 span{
+        font-weight: 300; 
+        color:#121213;
+        margin-left: 10px;
+    } 
+    .card .content1 .title_subtitle p{
+      font-size: 9.5px;
+      letter-spacing: 1px;
+      margin-top:5px;
+      color: #767477;
+      margin-left: 10px;
+    }
+
+    .card ul{
+        position: absolute;
+        top: 50%;
+        left: 17%;
+        color: #000;
+    }
+    .card ul li{
+        list-style-type: none;
+        padding: 2px 0px;
+    }
+    .card ul li{
+        list-style-type: none;
+        padding: 2px 0px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    .card ul li a{
+        text-decoration: none;
+        color: #000;
+        font-size: 12px;
+    }
+    .card ul li .fa-solid{
+        color: grey;
+        margin-right: 10px;
+        
+    }
+    .card ul li .fa-brands{
+        color: green;
+        margin-right: 10px;
+    }
+    .card ul h1{
+        width: 5px;
+        height: 37px;
+        background: #dca53e;
+     }
+     .card ul  h5 span{
+        font-weight: 300; 
+        color:#121213;
+        margin-left: 10px;
+    } 
+    .card ul h5{
+        font-weight: 300;
+        margin-top: -102px;
+        line-height: 10px;
+        color:#121213;
+        margin-left: 15px;
+    }
